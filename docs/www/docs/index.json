@@ -1,0 +1,14 @@
+{
+	"structure": [
+		{
+			"title": "Об этой документации",
+			"file": "about_documentation.md",
+			"children": [
+				{
+					"title": "Markdown",
+					"file": "about_documentation_markdown.md"
+				}
+			]
+		}
+	]
+}
