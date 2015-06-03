@@ -1,0 +1,12 @@
+var lemonLogger = require("lemon_logger");
+lemonLogger.log("ERROR", "ERROR");
+lemonLogger.log("WARN", "WARN");
+lemonLogger.log("INFO", "INFO");
+lemonLogger.log("DEBUG", "DEBUG");
+lemonLogger.log("TRACE", "TRACE");
+console.log("---");
+lemonLogger.error("ERROR");
+lemonLogger.warn("WARN");
+lemonLogger.info("INFO");
+lemonLogger.debug("DEBUG");
+lemonLogger.trace("TRACE");

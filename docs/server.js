@@ -3,7 +3,8 @@ var fs = require("fs");
 var marked = require("marked");
 
 marked.setOptions({
-	highlight: function (code, lang, callback) {
+	highlight: function(code, lang, callback)
+	{
 		if(lang != "plain")
 		{
 			require('pygmentize-bundled')({lang: lang, format: 'html'}, code, function(err, result)
@@ -27,9 +28,12 @@ app.get("/docs/*.md", function(req, res)
 		{
 			throw err;
 		}
-		//res.send(marked(data));
-		marked(data, function (err, content) {
-			if (err) throw err;
+		marked(data, function(err, content)
+		{
+			if(err)
+			{
+				throw err;
+			}
 			res.send(content);
 		});
 	});

@@ -9,6 +9,10 @@
 					"file": "about_documentation_markdown.md"
 				}
 			]
+		},
+		{
+			"title": "Логоирование",
+			"file": "logging.md"
 		}
 	]
 }
