@@ -38,5 +38,5 @@ app.get("/docs/*.md", function(req, res)
 		});
 	});
 });
-app.use(express.static("www"));
+app.use(express.static(__dirname + "/www"));
 app.listen(8065);

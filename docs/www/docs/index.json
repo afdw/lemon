@@ -13,6 +13,10 @@
 		{
 			"title": "Логоирование",
 			"file": "logging.md"
+		},
+		{
+			"title": "Структура проекта",
+			"file": "structure_of_project.md"
 		}
 	]
 }
