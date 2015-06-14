@@ -1,0 +1,24 @@
+<h1>Items</h1>
+{if params.items.length}
+	<ul>
+		{foreach params.items as item:index}
+			<li>Item is {echo item} and it index is {echo index}</li>
+		{/foreach}
+	</ul>
+{else}
+	No items!
+{/if}
+
+{!Commented}
+
+\{Escaped}
+
+{variable test}
+	Text of variable "test"
+{/variable}
+
+{echo test}
+
+{require require.html {test: test}}
+
+123
