@@ -1,0 +1,24 @@
+{variable content}
+	<h1>Планеты</h1>
+	{foreach params.planets as planet}
+		<div class="planet">
+			<h3>{echo planet.planet_name}</h3>
+			<img class="photo" src="{echo planet.planet_photo}">
+			<table>
+				<tr>
+					<td>Название</td>
+					<td>{echo planet.planet_name}</td>
+				</tr>
+				<tr>
+					<td>Место от Солнца</td>
+					<td>{echo planet.planet_index}</td>
+				</tr>
+				<tr>
+					<td>Обозначение</td>
+					<td><img src="{echo planet.planet_symbol}"></td>
+				</tr>
+			</table>
+		</div>
+	{/foreach}
+{/variable}
+{require page.html {content: content}}

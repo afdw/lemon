@@ -17,6 +17,16 @@
 		{
 			"title": "Структура проекта",
 			"file": "structure_of_project.md"
+		},
+		{
+			"title": "Статьи",
+			"file": "articles.md",
+			"children": [
+				{
+					"title": "Создание сайта",
+					"file": "articles_creating_site_with_lemon.md"
+				}
+			]
 		}
 	]
 }
